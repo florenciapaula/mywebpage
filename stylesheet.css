@@ -8,13 +8,12 @@ body {
   width: 95%;
   margin-left: 2%;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(Images/design.jpg);
+  background-image: url(Images/fondo2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 /* Style the header */
 .header {
-  background-color: rgba(238, 130, 238, 0.4);
   text-align: center;
   grid-area: header;
   padding: 30px;
@@ -34,7 +33,6 @@ p {
 }
 .nav {
   grid-area: nav;
-  background-color: rgba(238, 130, 238, 0.3);
   padding: 3px;
   padding-right: 2rem;
   text-align: center;
@@ -42,14 +40,13 @@ p {
 }
 .section {
   grid-area: section;
-  background-color: rgba(238, 130, 238, 1);
   padding: 3px;
   padding-right: 2rem;
   text-align: right;
   font-size: 25px;
 }
 #columnshome {
-  background-color: rgba(238, 188, 225, 0.97);
+  background-color: rgba(238, 188, 225, 0.3);
 }
 #logoindex {
   height: 8rem;
@@ -111,8 +108,6 @@ p {
 .footer {
   margin-top: 1.5rem;
   grid-area: footer;
-  background-color: rgba(238, 130, 238, 0.8);
-  opacity: 0.9;
   padding-top: 2px;
   text-align: center;
 }
